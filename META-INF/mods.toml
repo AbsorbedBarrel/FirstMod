@@ -1,0 +1,31 @@
+modLoader="javafml" #mandatory
+loaderVersion="[28,)" #mandatory
+#issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="firstmod" #mandatory
+version="${0.1.0}" #mandatory
+displayName="First Mod" #mandatory
+#updateJSONURL="http://myurl.me/" #optional
+#displayURL="http://example.com/" #optional
+#logoFile="examplemod.png" #optional
+credits="To myself for making this mod and Harry Talks for the amazing tutorial on how to make mods" #optional
+authors="AbsorbedBarrelYT" #optional
+description='''
+My first mod.
+tries to add more to caves. Ores, and Structures.
+'''
+# A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
+[[dependencies.firstmod]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[28,)" #mandatory
+    ordering="NONE"
+    # Side this dependency is applied on - BOTH, CLIENT or SERVER
+    side="BOTH"
+# Here's another dependency
+[[dependencies.firstmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.14.4]"
+    ordering="NONE"
+    side="BOTH"

@@ -1,0 +1,31 @@
+{
+    //Item Names
+    "item.firstmod.ruby": "Ruby",
+    "item.firstmod.obsidian_shard": "Obsidian Shard",
+    "item.firstmod.zombie_miner_entity_egg": "Zombie Miner Spawn Egg",
+
+    //Tool Names
+    "item.firstmod.obsidian_sword": "Obsidian Sword",
+    "item.firstmod.obsidian_shovel": "Obsidian Shovel",
+    "item.firstmod.obsidian_pickaxe": "Obsidian Pickaxe",
+    "item.firstmod.obsidian_axe": "Obsidian Axe",
+    "item.firstmod.obsidian_hoe": "Obsidian Hoe",
+    "item.firstmod.hammer": "Hammer",
+
+    //Block Names
+    "block.firstmod.ruby_block": "Block of Ruby",
+    "block.firstmod.ruby_ore": "Ruby Ore",
+    "block.firstmod.nether_gold_ore": "Gold Ore",
+
+    //Armor Names
+    "item.firstmod.obsidian_helmet": "Obsidian Helmet",
+    "item.firstmod.obsidian_chestplate": "Obsidian Chestplate",
+    "item.firstmod.obsidian_leggings": "Obsidian Leggings",
+    "item.firstmod.obsidian_boots": "Obsidian Boots",
+    
+    //Creative Tab
+    "itemGroup.firstMod": "First Mod",
+    
+    //Entity
+    "entity.firstmod.zombie_miner": "Zombie Miner"
+}
